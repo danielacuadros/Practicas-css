@@ -1,0 +1,92 @@
+/* Estilo para el body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contenedor principal */
+  .form-container {
+    background-color: rgb(129, 179, 204);
+    padding: 2rem;
+    border: 3px solid #264485;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* Contenedor de imágenes */
+  .images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .furniture-img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  /* Estilo del formulario */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formulario input {
+    width: 80%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #2f4a74;
+    border-radius: 5px;
+    transition: border 0.3s;
+  }
+  
+  input:focus {
+    border: 2px solid #dcb42f;
+  }
+  
+  /* Botón principal y enlaces como botones */
+  button,
+  .boton {
+    padding: 10px 20px;
+    background-color: #2f4a74;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  /* cambio de color al pasar el mouse */
+  button:hover,
+  .boton:hover {
+    background-color: #dcb42f;
+  }
+  
+  /* Cambios en primera letra */
+  button::first-letter,
+  .boton::first-letter {
+    font-size: 1.2rem;
+    color: #fcd34d;
+  }
+  
+  /* botones centrados, contenedor flexible, y wrap para salto segun espacio*/
+  .extra-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
